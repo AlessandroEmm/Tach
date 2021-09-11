@@ -61,23 +61,8 @@ void setup(void) {
   motor1.zero();
   motor1.setPosition(STEPS);
   motor1.updateBlocking();
-  delay(2000);
-    motor1.setPosition(502);
+  motor1.setPosition(0);
   motor1.updateBlocking();
-
-   delay(2000);
-      motor1.setPosition(724);
-  motor1.updateBlocking();
-     delay(2000);
-
-  delay(2000);
-    motor1.setPosition(502);
-  motor1.updateBlocking();
-
-   delay(2000);
-      motor1.setPosition(determineTachPos(2000));
-  motor1.updateBlocking();
-     delay(2000);
      
 }
 
